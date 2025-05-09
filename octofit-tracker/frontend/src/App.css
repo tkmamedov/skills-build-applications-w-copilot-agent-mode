@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #007bff; /* Blue background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #ffc107; /* Amber color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  color: #ffeb3b; /* Lighter amber */
+}
+
+nav {
+  background-color: #343a40; /* Dark gray */
+  padding: 1rem;
+}
+
+nav a {
+  color: #ffffff; /* White text */
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #ffc107; /* Amber */
+}
+
+h1 {
+  color: #007bff; /* Blue */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green */
+}
+
+table {
+  width: 90%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #007bff; /* Blue */
+  color: white;
+  font-size: 1.2rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light gray */
+}
+
+table tr:hover {
+  background-color: #e9ecef; /* Lighter gray */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
