@@ -134,3 +134,5 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+CODESPACE_API_SUFFIX = 'https://literate-cod-979jg7j9wrjcxp9x-8000.app.github.dev/'
